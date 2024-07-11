@@ -1,6 +1,6 @@
 # CSG: Multimodal Approximate Nearest Neighbor Search with The Cross-Shards Graph
 
-<img src="case_study.png" width="1000px"> Image Retrieval Queries. Query 1: a yellow flower in the blue sky; Query 2: a bride on the beach.
+<img src="case_study.png" width="1000px">
 
 We propose a novel Cross-Shards Graph (CSG) to address issues in current Multimodal Approximate Neareast Neighbor Search (ANNS). We define the search entry selection problem as a reduction of the maximum independent set problem and introduce a greedy algorithm with theoretical guarantees as the solution. We also establish cross-shards connectivity through a two-phase procedure, ensuring that the search complexity remains approximately $\mathcal{O}(\log N)$ and providing a theoretical proof of the reduction in the expected search path length. Our extensive experiments demonstrate that our algorithm surpasses current state-of-the-art ANNS algorithms in terms of search accuracy and efficiency on the real-world multimodal datasets.
 
